@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": {},
   "author": "TooPick",
   "license": "ISC",
   "dependencies": {
+    "commander": "^9.0.0",
     "glob": "^7.2.0",
+    "winston": "^3.6.0",
     "xml2json": "^0.12.0"
   }
 }

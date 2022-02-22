@@ -2,6 +2,7 @@ node_modules/
 package-lock.json
 
 # App execution files/folders
+logs/
 input_folder/
 output_folder/
 *.xml
