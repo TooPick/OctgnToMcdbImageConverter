@@ -83,8 +83,8 @@ if (fs.existsSync(options.input)) {
 
 // Check output folder
 if (fs.existsSync(options.output)) {
-  if (isEmpty(options.output)) {
-    logger.error(options.output + ": exists but is empty");
+  if (!isEmpty(options.output)) {
+    logger.error(options.output + ": exists but is not empty");
     canStart = false;
   }
 } else {
