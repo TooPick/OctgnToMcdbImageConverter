@@ -1,0 +1,15 @@
+{
+  "name": "octgn-mcdb-image-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "TooPick",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "xml2json": "^0.12.0"
+  }
+}

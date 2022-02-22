@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+
+# App execution files/folders
+input_folder/
+output_folder/
+*.xml
+*.zip
